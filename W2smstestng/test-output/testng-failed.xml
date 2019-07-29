@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="page2(failed)">
+    <parameter name="p" value="K8336M"/>
+    <parameter name="pc" value="valid"/>
+    <parameter name="mc" value="invalid"/>
+    <parameter name="m" value=""/>
+    <classes>
+      <class name="tests.Mainclasses">
+        <methods>
+          <include name="validations" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.Mainclasses -->
+    </classes>
+  </test> <!-- page2(failed) -->
+  <test thread-count="5" name="page6(failed)">
+    <parameter name="p" value="K8336"/>
+    <parameter name="pc" value="invalid"/>
+    <parameter name="mc" value="valid"/>
+    <parameter name="m" value="9705427250"/>
+    <classes>
+      <class name="tests.Mainclasses">
+        <methods>
+          <include name="validations" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- tests.Mainclasses -->
+    </classes>
+  </test> <!-- page6(failed) -->
+</suite> <!-- Failed suite [Suite] -->

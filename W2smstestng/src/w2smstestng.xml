@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests" threadcount="3">
+  <test name="page1">
+  	<parameter name="m" value="9705427250"/>
+  	<parameter name="mc" value="valid"/>
+  	<parameter name="p" value="K8336M"/>
+  	<parameter name="pc" value="valid"/>
+    <classes>
+      <class name="tests.Mainclasses"/>
+    </classes>
+  </test> 
+    <test name="page2">
+  	<parameter name="m" value=""/>
+  	<parameter name="mc" value="invalid"/>
+  	<parameter name="p" value="K8336M"/>
+  	<parameter name="pc" value="valid"/>
+    <classes>
+      <class name="tests.Mainclasses"/>
+    </classes>
+  </test>
+    <test name="page3">
+  	<parameter name="m" value="9705427"/>
+  	<parameter name="mc" value="invalid"/>
+  	<parameter name="p" value="K8336M"/>
+  	<parameter name="pc" value="valid"/>
+    <classes>
+      <class name="tests.Mainclasses"/>
+    </classes>
+  </test> 
+    <test name="page4">
+  	<parameter name="m" value="1245897112"/>
+  	<parameter name="mc" value="invalid"/>
+  	<parameter name="p" value="K8336M"/>
+  	<parameter name="pc" value="valid"/>
+    <classes>
+      <class name="tests.Mainclasses"/>
+    </classes>
+  </test> 
+    <test name="page5">
+  	<parameter name="m" value="9705427250"/>
+  	<parameter name="mc" value="valid"/>
+  	<parameter name="p" value=""/>
+  	<parameter name="pc" value="invalid"/>
+    <classes>
+      <class name="tests.Mainclasses"/>
+    </classes>
+  </test> 
+    <test name="page6">
+  	<parameter name="m" value="9705427250"/>
+  	<parameter name="mc" value="valid"/>
+  	<parameter name="p" value="K8336"/>
+  	<parameter name="pc" value="invalid"/>
+    <classes>
+      <class name="tests.Mainclasses"/>
+    </classes>
+  </test>  
+</suite>
