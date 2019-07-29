@@ -1,0 +1,6 @@
+9705427250,valid,K8336M,valid
+,invalid,K8336M,valid
+97086,invalid,K8336M,valid
+97054352523,invalid,K8336M,valid
+9705427250,valid,,invalid
+9705427250,valid,maavf,invalid
